@@ -196,7 +196,7 @@ def c_savedata():  #save weather data from listbox lb_mwin in main window to sql
 def c_getweatherdata():  #update lb_mwin lstbox in main window with current weather data
     try:
         global list_mw_info, list_sql_records
-        api_key = "683d869b7e0c3cb883aada5c52aa5c3d"
+        api_key = "683d869b7e0c3cb883aada5c52xxxxxx"
         base_url = "http://api.openweathermap.org/data/2.5/weather?"  
         city_name = entry_cn.get()  #Get city entered
         complete_url = base_url + "appid=" + api_key + "&q=" + city_name + "&units=metric"
